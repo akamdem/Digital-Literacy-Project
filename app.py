@@ -9,7 +9,7 @@ from collections import Counter
 
 st.title("Hi mom, are you wondering if an online post/headline is real or fake?")
 st.header("Let's predict by comparing it to thousands of other social media posts.")
-st.subheader("If the model classifies the given text as 'worldnews', it is likely trustworthy, otherwise it'll be classified as 'conspiracy', please don't spread on Whatsapp.")
+st.subheader("If the model classifies the given text as 'worldnews',   it is likely trustworthy,   otherwise it'll be classified as 'conspiracy',   please don't spread on Whatsapp.")
 
 
 
