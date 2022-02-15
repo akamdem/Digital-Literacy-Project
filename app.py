@@ -27,7 +27,7 @@ def fakeorreal(headline, gs):
             st.write(f"There is a {round(probability, 2)*100} percent chance that this text/headline is real or trustworthy")
             st.balloons()
         else:
-            st.write(f"There is a {round(probability, 2)*100} percent chance that this text/headline is Fake News, please don't spread this on Whatsapp without double checking")
+            st.write(f"There is a {round(probability, 2)*100} percent chance that this text/headline is not credible, please don't spread without double checking")
             
 
 
