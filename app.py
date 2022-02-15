@@ -24,7 +24,7 @@ def fakeorreal(headline, gs):
         generated_pred = prediction = gs.best_estimator_.named_steps['multinomialnb'].predict(headline)
         probability = gs.best_estimator_.named_steps['multinomialnb'].predict_proba(headline).max()
         if generated_pred[0] == 'worldnews':
-            st.write(f"There is a {round(probability, 2)*100} percent chance that this text/headline is real or trustworthy")
+            st.write(f"There is a {round(probability, 2)*100} percent chance that this text/headline is credible, but please continue to follow healthy digital media consumption practices")
             st.balloons()
         else:
             st.write(f"There is a {round(probability, 2)*100} percent chance that this text/headline is not credible, please don't spread without double checking")
