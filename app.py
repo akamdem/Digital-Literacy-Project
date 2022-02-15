@@ -7,7 +7,7 @@ import json
 #import torch
 from collections import Counter
 
-st.title("Hi there -- are you wondering if an online post/headline is real or fake? Airton Kamdem developed this machine learning web app to help guide you.")
+st.title("Hi there -- are you wondering if an online post/headline is credible? Airton Kamdem developed this machine learning web app to help guide you.")
 st.header("We'll make a prediction by comparing any given headline or text to thousands of other social media posts.")
 st.subheader("If the model classifies the given headline or post as something that would be observable is a credible news subreddit, it is likely trustworthy and will assign a percentage likelihood with its prediction, otherwise it'll  classify the text as 'conspiracy' and assign a similar probability.")
 
