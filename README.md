@@ -7,10 +7,10 @@ Today, over a quarter of all Americans receive their daily news from social medi
 
 ### Contents:
 I: app.py 
-- this serves as the front end for where I deploy the model, it harbors the visual layout and functions that take in and return classifications and probabilities to users
+- This serves as the front end for my deployed application, it harbors the visual layout and functions that take in and return classifications and probabilities to users
 
 II: model-training.py 
-- contains the base data and model used to train and apply to new user inputs, this serves as the backend to the streamlit app where I deploy the model
+- Contains the base data and model used to train and apply to new user inputs, this serves as the backend to the streamlit app where I deploy the model
 
 III: [Presentation](https://docs.google.com/presentation/d/1ies7K6b3VlwlCfaWNGyr70nYlU0IDkbJOGiLuh-3haM/edit?usp=sharing)
 
