@@ -11,10 +11,10 @@ In this project, I collected thousands of posts and headlines through Reddit's P
 ![text](https://github.com/akamdem/digital-literacy-project/blob/main/ConfusionMatrix.png)
 
 ### Contents:
-I app.py: this serves as the front end for where I deploy the model, it harbors the visual layout and functions that take in and return classifications and probabilities to users
-II model-training.py: contains the base data and model used to train and apply to new user inputs, this serves as the backend to the streamlit app where I deploy the model
-III [presentation](https://docs.google.com/presentation/d/1ies7K6b3VlwlCfaWNGyr70nYlU0IDkbJOGiLuh-3haM/edit?usp=sharing)
-IV [Web Application](https://share.streamlit.io/akamdem/misinfo/main/app.py)
+I: app.py this serves as the front end for where I deploy the model, it harbors the visual layout and functions that take in and return classifications and probabilities to users
+II: model-training.py contains the base data and model used to train and apply to new user inputs, this serves as the backend to the streamlit app where I deploy the model
+III: [presentation](https://docs.google.com/presentation/d/1ies7K6b3VlwlCfaWNGyr70nYlU0IDkbJOGiLuh-3haM/edit?usp=sharing)
+IV: [Web Application](https://share.streamlit.io/akamdem/misinfo/main/app.py)
 
 
 ### Data Sources:
