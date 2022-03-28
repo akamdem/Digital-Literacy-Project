@@ -4,22 +4,17 @@ from sklearn.preprocessing import StandardScaler, PolynomialFeatures
 from sklearn.model_selection import train_test_split, GridSearchCV
 from sklearn.linear_model import LinearRegression, Lasso, Ridge
 from sklearn.preprocessing import OneHotEncoder
-from sklearn.metrics import mean_absolute_error
-from sklearn.metrics import mean_squared_error
 from sklearn.metrics import r2_score
 from sklearn.utils import shuffle
 import plotly.express as px
 import pandas as pd
 from sklearn.linear_model import LogisticRegression  # pip install scikit-learn
-from sklearn.model_selection import train_test_split
 import pickle
 import time
 from sklearn.linear_model import LogisticRegression
 from sklearn.pipeline import make_pipeline
-from sklearn.feature_selection import RFE
 from sklearn.dummy import DummyRegressor
 from sklearn.feature_extraction.text import CountVectorizer, TfidfVectorizer
-from sklearn.ensemble import RandomForestClassifier
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.naive_bayes import MultinomialNB
 from sklearn.impute import SimpleImputer
@@ -33,8 +28,6 @@ import nltk
 import requests
 import numpy as np
 import pandas as pd
-import seaborn as sns
-import missingno as msno
 from sklearn import metrics
 import matplotlib.pyplot as plt
 from sklearn import set_config
