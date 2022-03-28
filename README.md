@@ -25,11 +25,6 @@ IV [Web Application](https://share.streamlit.io/akamdem/misinfo/main/app.py)
 ### Further Study
 Given additional time, I would gather even more initial posts from reddit, i most cases, the more data you can train on, the better your model becomes at generalizing to new data. I may also continue to tune parameters such as ngrams to and continuously review my confusion matrix untill I can land at a strong F1 score (the harmoneous blend bectween recall and precision), I would also allow users to input links from posts directly as well, as ooposed to copying and pasting the specified text and linking to credible news sources after the model returns a classification and probability. 
 
-# misinfo
-#### This app scrapes over 5000 posts from the r/worldnews subreddit and r/conspiracy subreddit, trains a Naïve Bayes model on these posts to help the model identify patterns behind traditional credible news post/headlines and those that are more likely to be stemming from conspiracy theories. The app then takes in new inputs from users and predicts a classification based on the NLP model's training and returns a classigication with a percentage likelyhood for either class. Please see the adjacent app.py doc for a technical review.
+The model is currently limited in that it mostly analyses syntax, subjectivity, polarity, length, word choice, etc. Most fake/conspiracy posts are structured in a similar way so you can get a pretty good guess just by looking at the content’s structure. However, this model won’t do as good a job at predicting if minute details in the post is actually factual.
 
-#### The model mostly analyses syntax, subjectivity, polarity, length, word choice, etc. Most fake/conspiracy posts are structured in a similar way so you can get a pretty good guess just by looking at the content’s structure. However, this model won’t do as good a job at predicting if a minute detail in the post is actually true. 
-
-#### Scrapping was done mostly through reddit, since they’re the most amenable to scrapping
-
-#### Web App available here: https://share.streamlit.io/akamdem/misinfo/main/app.py
+##### [Web App available here:](https://share.streamlit.io/akamdem/misinfo/main/app.py)
