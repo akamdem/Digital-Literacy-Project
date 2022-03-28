@@ -57,17 +57,6 @@ posted = data['data']
 
 df = pd.DataFrame(posted)
 
-#posts = []
-#for post in res.json()['data']:
-#    post_dict = {}
- #   post_dict['title'] = post['title']
-  #  post_dict['text'] = post['selftext']
-   # post_dict['auth'] = post['author']
-    #post_dict['time'] = post['created_utc']
-   # post_dict['subreddit'] = post['subreddit']
-  #  posts.append(post_dict)
-
-
 
 def pushshift_query(subreddit, kind='submission', num_loops=2):
     current_time = 1642778603
@@ -95,11 +84,6 @@ def pushshift_query(subreddit, kind='submission', num_loops=2):
     #return pd.DataFrame(posts)
 fake = pushshift_query(subreddit='conspiracy')
 news = pushshift_query(subreddit='worldnews')
-
-#news['title'].replace('', np.nan, inplace=True)
-#news.dropna(subset=['title'], inplace=True)
-#fake['title'].replace('', np.nan, inplace=True)
-#fake.dropna(subset=['title'], inplace=True)
 
 newser = [fake, news]
 newsy = pd.concat(newser)
@@ -133,7 +117,6 @@ def fakeorreal(headline, gs):
     prediction = gs.best_estimator_.named_steps['multinomialnb'].predict(headline)
     return prediction
     
-
 # save the model
 with open("subreddit.pkl", "wb") as file:
     pickle.dump(gs, file)
