@@ -17,7 +17,7 @@ I: app.py
 II: model-training.py 
 - contains the base data and model used to train and apply to new user inputs, this serves as the backend to the streamlit app where I deploy the model
 
-III: [presentation](https://docs.google.com/presentation/d/1ies7K6b3VlwlCfaWNGyr70nYlU0IDkbJOGiLuh-3haM/edit?usp=sharing)
+III: [Presentation](https://docs.google.com/presentation/d/1ies7K6b3VlwlCfaWNGyr70nYlU0IDkbJOGiLuh-3haM/edit?usp=sharing)
 
 IV: [Web Application](https://share.streamlit.io/akamdem/misinfo/main/app.py)
 
