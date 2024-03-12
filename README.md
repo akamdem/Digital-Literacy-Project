@@ -22,6 +22,7 @@ In this project, I collected thousands of posts and headlines through Reddit's P
 ![text](https://github.com/akamdem/digital-literacy-project/blob/main/ConfusionMatrix.png)
 
 ### Data Sources:
+-Kaggle data sets which include a number of posts from the below along with broader datasets
 - r/worldnews
 - r/conspiracy
 
