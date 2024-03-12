@@ -35,7 +35,7 @@ set_config(display='diagram')
 from sklearn.impute import SimpleImputer
 pd.options.display.max_columns = 999
 set_config(display='diagram')
-# load data
+# load training data
 
 url = 'https://api.pushshift.io/reddit/search/submission'
 
